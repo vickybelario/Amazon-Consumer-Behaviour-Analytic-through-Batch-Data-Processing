@@ -1,5 +1,5 @@
 
-![Uploading copy_page-0001.jpg…]()
+![copy_page-0001](https://github.com/user-attachments/assets/bc8b93f3-3cce-4485-85de-663e0150ed52)
 
 <p style="background-color:#FF9900;font-family:newtimeroman;color:#FFF9ED;font-size:150%;text-align:center;border-radius:10px 10px;">Amazon Customer Behaviour</p>
 
