@@ -22,6 +22,10 @@ Objective
 - Menentukan Area untuk Peningkatan Layanan
 - Mengidentifikasi Aspek Layanan yang Paling Dihargai
 
+Dataset Overview
+
+Survei dilakukan di subkontinen India, serta di antara penduduk India di wilayah Asia Tengah, Eropa, dan Timur Tengah. Survei dilakukan melalui berbagai platform sosial dengan menyebarkan Google Sheets.
+
 Kesimpulan
 
 - Rekomendasi produk yang dipersonalisasi tidak memengaruhi keputusan pembelian.
@@ -30,10 +34,6 @@ Kesimpulan
 - Penggunaan kategori dan filter yang lebih rendah menunjukkan bahwa fitur-fitur ini mungkin perlu dioptimalkan lebih lanjut untuk meningkatkan penggunaannya.
 - Memastikan bahwa produk yang dijual di Amazon memenuhi standar yang dijanjikan sangat penting. Kualitas yang tidak konsisten dapat merusak reputasi Amazon dan kepercayaan pelanggan.
 - Pilihan produk yang luas adalah nilai utama yang dihargai oleh pelanggan, menunjukkan bahwa manajemen katalog produk sangat penting bagi pelanggan.
-
-Dataset Overview
-
-Survei dilakukan di subkontinen India, serta di antara penduduk India di wilayah Asia Tengah, Eropa, dan Timur Tengah. Survei dilakukan melalui berbagai platform sosial dengan menyebarkan Google Sheets.
 
 Rekomendasi Bisnis
 
