@@ -1,0 +1,54 @@
+1. Jelaskan apa yang dimaksud dengan NoSQL
+
+NoSQL adalah jenis database yang dirancang untuk menangani kebutuhan penyimpanan dan pengelolaan data yang tidak dapat diakomodasi dengan baik oleh database relasional tradisional (RDBMS). NoSQL biasanya digunakan untuk data yang bersifat semi-terstruktur atau tidak terstruktur, seperti dokumen, graf, atau pasangan kunci-nilai. Keunggulan utama NoSQL adalah skalabilitasnya yang tinggi, performa cepat dalam mengakses data, dan fleksibilitas dalam skema data yang dapat berubah-ubah tanpa memerlukan migrasi skema yang rumit.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+- NoSQL:
+
+Skalabilitas: Ketika memerlukan skalabilitas horizontal, seperti di aplikasi dengan pertumbuhan data yang cepat dan besar.
+Data Tidak Terstruktur: Saat bekerja dengan data yang tidak terstruktur atau semi-terstruktur, seperti dokumen, JSON, graf, dan data kunci-nilai.
+Kecepatan Akses: Jika memerlukan performa tinggi untuk operasi baca/tulis, misalnya dalam aplikasi real-time.
+Fleksibilitas Skema: Ketika skema data sering berubah atau sulit diprediksi.
+
+- RDBMS:
+
+Transaksi ACID: Ketika memerlukan transaksi yang kuat dengan konsistensi data tinggi (Atomicity, Consistency, Isolation, Durability).
+Data Terstruktur: Saat data memiliki struktur yang jelas dan relasi antar tabel yang kompleks.
+Query Kompleks: Jika sering melakukan query yang kompleks dengan join, agregasi, dan fungsi SQL lainnya.
+Standarisasi: Ketika bekerja dalam lingkungan yang membutuhkan standar SQL untuk kompatibilitas dan migrasi antar sistem.
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+a. MongoDB:
+  Keunggulan:
+  - Fleksibilitas skema: Mendukung dokumen JSON yang memungkinkan struktur data dinamis.
+  - Skalabilitas: Mudah di-skala secara horizontal dengan sharding otomatis.
+  - Indexing: Mendukung berbagai jenis indexing untuk query cepat.
+
+b. Cassandra:
+   Keunggulan:
+   - Skalabilitas dan ketersediaan tinggi: Dirancang untuk mendukung distribusi data global dengan replikasi otomatis.
+   - Performansi tinggi: Optimized for high write throughput.
+   - Konsistensi yang dapat dikonfigurasi: Memungkinkan pengaturan trade-off antara konsistensi dan ketersediaan sesuai kebutuhan aplikasi.
+
+
+4. Jelaskan apa yang apa itu Airflow !
+  Apache Airflow adalah platform open-source untuk membuat, menjadwalkan, dan memonitor alur kerja (workflow) yang terdiri dari tugas-tugas yang dapat diotomatisasi. Alur kerja didefinisikan menggunakan kode Python dalam bentuk Directed Acyclic Graphs (DAGs), yang memudahkan untuk mengelola dependensi antar tugas dan menjalankan tugas secara paralel atau berurutan. Airflow memiliki antarmuka web yang memungkinkan pengguna untuk melihat status alur kerja, logs, dan metrik eksekusi, serta mendukung integrasi dengan berbagai alat dan sistem lainnya.
+
+5. Jelaskan apa yang itu Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+  Great Expectations adalah alat open-source untuk validasi data yang membantu memastikan bahwa data dalam alur kerja memenuhi harapan yang telah ditentukan sebelumnya. Dengan Great Expectations, pengguna dapat mendefinisikan aturan atau "harapan" tentang data, seperti tipe data, nilai minimum/maksimum, keunikan, dan lain-lain. Alat ini juga dapat menghasilkan laporan validasi otomatis dan mendukung integrasi dengan berbagai platform data dan alat orkestrasi seperti Apache Airflow.
+
+6. Jelaskan apa itu Batch Processing (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+Batch Processing adalah metode pengolahan data dalam jumlah besar secara berkala atau dalam batch. Data dikumpulkan, disimpan, dan kemudian diproses dalam satu waktu tertentu, biasanya secara terjadwal atau berdasarkan ukuran batch tertentu.
+
+a. Contoh Kasus Penggunaan:
+- Pengolahan transaksi keuangan harian.
+- Generasi laporan bulanan atau tahunan.
+- Analisis data historis untuk machine learning.
+
+b. Tools:
+- Apache Hadoop: Framework untuk pemrosesan batch terdistribusi yang dapat mengolah data dalam skala besar dengan menggunakan model pemrograman MapReduce.
+- Apache Spark: Platform pemrosesan data yang mendukung batch processing dan menyediakan kecepatan tinggi dengan eksekusi in-memory.
+- Batch processing berguna untuk pekerjaan yang tidak memerlukan respon real-time, namun membutuhkan pemrosesan data dalam volume besar dengan efisiensi tinggi.
