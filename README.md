@@ -32,6 +32,7 @@ Kesimpulan
 - Pilihan produk yang luas adalah nilai utama yang dihargai oleh pelanggan, menunjukkan bahwa manajemen katalog produk sangat penting bagi pelanggan.
 
 Dataset Overview
+
 Survei dilakukan di subkontinen India, serta di antara penduduk India di wilayah Asia Tengah, Eropa, dan Timur Tengah. Survei dilakukan melalui berbagai platform sosial dengan menyebarkan Google Sheets.
 
 Rekomendasi Bisnis
