@@ -1,8 +1,6 @@
 
 ![copy_page-0001](https://github.com/user-attachments/assets/bc8b93f3-3cce-4485-85de-663e0150ed52)
 
-<h1 align="center" style="color:orange;">Amazon Customer Behaviour</h1>
-
 Introduction
 Nama  : Vicky Belario
 
