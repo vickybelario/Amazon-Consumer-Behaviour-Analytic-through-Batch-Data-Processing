@@ -1,4 +1,7 @@
-# Amazon-Customer-Behaviour-Analytics
+
+<img src="https://ibb.co.com/YNfRTmS">
+
+<p style="background-color:#FF9900;font-family:newtimeroman;color:#FFF9ED;font-size:150%;text-align:center;border-radius:10px 10px;">Amazon Customer Behaviour</p>
 
 Introduction
 Nama  : Vicky Belario
