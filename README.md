@@ -24,6 +24,9 @@ Tujuan utama dari proyek milestone ini adalah menganalisis perilaku konsumen Ama
 
 ## Dataset Overview
 
+
+Pengambilan data melalui website kaggle : [Link](https://www.kaggle.com/datasets/swathiunnikrishnan/amazon-consumer-behaviour-dataset)
+
 Survei dilakukan di subkontinen India, serta di antara penduduk India di wilayah Asia Tengah, Eropa, dan Timur Tengah. Survei dilakukan melalui berbagai platform sosial dengan menyebarkan Google Sheets.
 
 ## Kesimpulan
