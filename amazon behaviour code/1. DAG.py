@@ -40,7 +40,7 @@ def load_csv_to_postgres():
     
 
 
-def ambil_data():
+def ambil_csv():
     ''' 
     Fungsi untuk mengambil data dari tabel PostgreSQL dan menyimpannya ke file CSV baru.
     Membaca data dari tabel 'table' di PostgreSQL dan menyimpannya ke 
@@ -86,7 +86,7 @@ def preprocessing():
 
     df.to_csv('/opt/airflow/dags/amazon_data_clean.csv', index=False)
 
-def upload_to_elasticsearch():
+def upload_csv_to_elasticsearch():
     '''
     Fungsi untuk mengunggah data yang telah dibersihkan ke Elasticsearch.
     Membaca data dari file CSV '/opt/airflow/dags/amazon_data_clean.csv' dan mengunggahnya ke index 'table_test' di Elasticsearch.
@@ -120,14 +120,14 @@ with DAG(
 
 
     # Task : 1 - Memuat data CSV ke PostgreSQL
-    load_csv_task = PythonOperator(
-        task_id='load_csv_to_postgres',
+    load_data = PythonOperator(
+        task_id='load_data_to_postgres',
         python_callable=load_csv_to_postgres) #sesuai dengan nama fungsi yang dibuat
     
     # Task: 2 - Mengambil data dari PostgreSQL dan menyimpannya ke file CSV baru
-    ambil_data_pg = PythonOperator(
-        task_id='ambil_data_postgres',
-        python_callable=ambil_data) #
+    ambil_data = PythonOperator(
+        task_id='ambil_data_from_postgres',
+        python_callable=ambil_csv) #
     
     # Task: 3 - Menjalankan pembersihan data
     edit_data = PythonOperator(
@@ -136,11 +136,11 @@ with DAG(
 
     # Task: 4 - Mengunggah data yang sudah dibersihkan ke Elasticsearch
     upload_data = PythonOperator(
-        task_id='upload_data_elastic',
-        python_callable=upload_to_elasticsearch)
+        task_id='upload_data_to_elastic',
+        python_callable=upload_csv_to_elasticsearch)
 
     # Proses untuk menjalankan task di Airflow
-    load_csv_task >> ambil_data_pg >> edit_data >> upload_data
+    load_data >> ambil_data >> edit_data >> upload_data
 
 
 
