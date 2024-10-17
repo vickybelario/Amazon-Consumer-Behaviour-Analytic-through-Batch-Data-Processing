@@ -1,5 +1,5 @@
 
-![copy_page-0001](https://github.com/user-attachments/assets/bc8b93f3-3cce-4485-85de-663e0150ed52)
+![Amazon](https://github.com/user-attachments/assets/85b4c8c7-64f7-43a8-8429-c09b817f983c)
 
 ## Introduction <br>
 Nama  : Vicky Belario
