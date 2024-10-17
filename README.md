@@ -1,5 +1,5 @@
 
-![Amazon](https://github.com/user-attachments/assets/85b4c8c7-64f7-43a8-8429-c09b817f983c)
+![Amazon Best Sellers and Trending Products in September 2024](https://github.com/user-attachments/assets/52c8a3b8-fdf4-499f-9667-8d5f18fb91ff)
 
 ## Introduction <br>
 Nama  : Vicky Belario
