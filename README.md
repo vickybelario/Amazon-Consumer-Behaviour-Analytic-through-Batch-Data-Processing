@@ -1,5 +1,5 @@
 
-![Amazon Best Sellers and Trending Products in September 2024](https://github.com/user-attachments/assets/52c8a3b8-fdf4-499f-9667-8d5f18fb91ff)
+![Amazon NFTs Could Be Coming Soon_ What Could It Mean For The Sector And Investors_ - Amazon_com (NASDAQ_AMZN)](https://github.com/user-attachments/assets/1ba62ce7-a50d-433f-9962-9d6a61e90328)
 
 ## Introduction <br>
 Nama  : Vicky Belario
