@@ -1,5 +1,5 @@
-![Amazon](https://github.com/user-attachments/assets/0d61882f-4b35-4d69-9a87-5f184d979061)
 
+![Já Pensou em Trabalhar de Carteira Assinada na Amazon_ Empresa Abre Vaga de Emprego Efetiva CLT c_](https://github.com/user-attachments/assets/652aeb53-57d6-4dc3-8f4f-d225a678aa56)
 
 ## Introduction <br>
 Nama  : Vicky Belario
