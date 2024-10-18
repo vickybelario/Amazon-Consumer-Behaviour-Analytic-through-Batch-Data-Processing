@@ -6,6 +6,9 @@ Nama  : Vicky Belario
 
 Project ini dilakukan untuk  membuat report  yang berisi Exploratory Data Analysis (EDA) dari Amazon consumer Behaviour Dataset
 
+### [**Hugging Face**](https://huggingface.co/spaces/vickybelario/project01)
+### [**Slide Project**](https://www.canva.com/design/DAGIpWrO7ZY/kMoijxJUcsBuz5FomuJgdA/edit?utm_content=DAGIpWrO7ZY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Background
 
 Dalam era digital saat ini, memahami perilaku konsumen sangat penting bagi bisnis untuk berkembang dan tetap kompetitif. Amazon, sebagai salah satu platform e-commerce terbesar di dunia, memiliki basis pelanggan yang luas dan beragam. Menganalisis pola perilaku konsumen Amazon dapat memberikan wawasan tentang pola interaksi pengguna,  preferensi, dan proses pengambilan keputusan pelanggan Amazon. 
