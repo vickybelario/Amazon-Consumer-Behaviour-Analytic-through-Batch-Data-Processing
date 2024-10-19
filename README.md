@@ -6,9 +6,6 @@ Nama  : Vicky Belario
 
 Project ini dilakukan untuk  membuat report  yang berisi Exploratory Data Analysis (EDA) dari Amazon consumer Behaviour Dataset
 
-### [**Hugging Face**](https://huggingface.co/spaces/vickybelario/project01)
-### [**Slide Project**](https://www.canva.com/design/DAGIpWrO7ZY/kMoijxJUcsBuz5FomuJgdA/edit?utm_content=DAGIpWrO7ZY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 Slide Project bisa diakses di website Canva : [Link](https://www.canva.com/design/DAGIpWrO7ZY/kMoijxJUcsBuz5FomuJgdA/edit?utm_content=DAGIpWrO7ZY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  <br>
 
 ## Background
